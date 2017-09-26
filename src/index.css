@@ -1,0 +1,50 @@
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.goods-container {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.goods-item {
+    width: 591px;
+    height: 128px;
+
+    padding: 15px;
+    border: 1px solid #eee;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.goods-item-table {
+    max-width: 83%;
+    width: 100%;
+}
+
+.goods-container .goods-item:last-child {
+    border-top: none
+}
+
+.goods-item-img {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.goods-item-title {
+    margin: 0;
+    font-size: 15px;
+}
+
+.goods-item-price > span {
+    color: #bbb;
+}
+
+.goods-item-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+

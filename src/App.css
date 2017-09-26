@@ -1,0 +1,16 @@
+body {
+  margin: 0 auto;
+}
+
+.goods-item {
+  width: 591px;
+  height: 128px;
+}
+
+.goods-item__img {
+  float: left;
+}
+
+.goods-item__text {
+  float: left;
+}
